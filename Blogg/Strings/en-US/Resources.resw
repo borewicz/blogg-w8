@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pageTitle.Text" xml:space="preserve">
+    <value>Latest posts</value>
+    <comment>Latest posts</comment>
+  </data>
+  <data name="refreshClick.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Refresh</value>
+    <comment>Refresh</comment>
+  </data>
+  <data name="registerButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Create New</value>
+    <comment>Create New</comment>
+  </data>
+  <data name="signButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sign In</value>
+    <comment>Sign In</comment>
+  </data>
+  <data name="welcomeLabel.Text" xml:space="preserve">
+    <value>Welcome to Blogg!</value>
+    <comment>Welcome to Blogg!</comment>
+  </data>
+  <data name="createdLabel.Text" xml:space="preserve">
+    <value>Created:</value>
+    <comment>Created:</comment>
+  </data>
+  <data name="lastUpdatedLabel.Text" xml:space="preserve">
+    <value>Last updated:</value>
+    <comment>Last updated:</comment>
+  </data>
+  <data name="postCount.Text" xml:space="preserve">
+    <value>Posts:</value>
+    <comment>Posts:</comment>
+  </data>
+  <data name="newPost.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>New Post</value>
+    <comment>New post</comment>
+  </data>
+  <data name="Posts" xml:space="preserve">
+    <value>Posts</value>
+    <comment>Posts</comment>
+  </data>
+  <data name="bold.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bold</value>
+    <comment>Bold</comment>
+  </data>
+  <data name="cancelEnter" xml:space="preserve">
+    <value>You cancelled entering your credentials</value>
+    <comment>You cancelled entering your credentials</comment>
+  </data>
+  <data name="createLink.Content" xml:space="preserve">
+    <value>Insert</value>
+    <comment>Insert</comment>
+  </data>
+  <data name="deleteButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Delete</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="enterTitleHere.Watermark" xml:space="preserve">
+    <value>enter address here</value>
+    <comment>enter address here</comment>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Error</value>
+    <comment>Error</comment>
+  </data>
+  <data name="From Camera" xml:space="preserve">
+    <value>From Camera</value>
+    <comment>From Camera</comment>
+  </data>
+  <data name="From Pictures" xml:space="preserve">
+    <value>From Pictures</value>
+    <comment>From Pictures</comment>
+  </data>
+  <data name="hurray" xml:space="preserve">
+    <value>Hurray!</value>
+    <comment>Hurray!</comment>
+  </data>
+  <data name="image.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Image</value>
+    <comment>Image</comment>
+  </data>
+  <data name="italic.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Italic</value>
+    <comment>Italic</comment>
+  </data>
+  <data name="link.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Link</value>
+    <comment>Link</comment>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>No!</value>
+    <comment>No!</comment>
+  </data>
+  <data name="ohNo" xml:space="preserve">
+    <value>Oh no!</value>
+    <comment>Oh no!</comment>
+  </data>
+  <data name="postWebBrowserButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Show in Browser</value>
+    <comment>Show in Browser</comment>
+  </data>
+  <data name="pubButtonLabel.Content" xml:space="preserve">
+    <value>publish</value>
+    <comment>publish</comment>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+    <comment>Question</comment>
+  </data>
+  <data name="reallyWant" xml:space="preserve">
+    <value>Do you really want to go back?</value>
+    <comment>Do you really want to go back?</comment>
+  </data>
+  <data name="reallyWantRemove" xml:space="preserve">
+    <value>Do you really want to delete this post?</value>
+    <comment>Do you really want to delete this post?</comment>
+  </data>
+  <data name="selectSomeText" xml:space="preserve">
+    <value>Select some text to create a link.</value>
+    <comment>Select some text to create a link.</comment>
+  </data>
+  <data name="stayHere" xml:space="preserve">
+    <value>No, stay here</value>
+    <comment>No, stay here</comment>
+  </data>
+  <data name="strike.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Strike</value>
+    <comment>Strike</comment>
+  </data>
+  <data name="successDelete" xml:space="preserve">
+    <value>Post successfuly deleted.</value>
+    <comment>Post successfuly deleted.</comment>
+  </data>
+  <data name="successUpload" xml:space="preserve">
+    <value>Post successfully uploaded!</value>
+    <comment>Post successfully uploaded!</comment>
+  </data>
+  <data name="tryAgain" xml:space="preserve">
+    <value>Try again</value>
+    <comment>Try again</comment>
+  </data>
+  <data name="underline.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Underline</value>
+    <comment>Underline</comment>
+  </data>
+  <data name="list.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>List</value>
+    <comment>List</comment>
+  </data>
+  <data name="unsavedChanges" xml:space="preserve">
+    <value>You have unsaved changes.</value>
+    <comment>You have unsaved changes.</comment>
+  </data>
+  <data name="watermarkTextBox.Watermark" xml:space="preserve">
+    <value>enter title here</value>
+    <comment>enter title here</comment>
+  </data>
+  <data name="webBrowserButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Blog Page</value>
+    <comment>Blog Page</comment>
+  </data>
+  <data name="whyYouWant" xml:space="preserve">
+    <value>Why you don't want to sign in? It's nessesery to send photo to a server!</value>
+    <comment>Why you don't want to sign in? It's nessesery to send photo to a server!</comment>
+  </data>
+  <data name="wrongCredentials" xml:space="preserve">
+    <value>I think that you typed wrong credentials ;(</value>
+    <comment>I think that you typed wrong credentials ;(</comment>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="yesDeleteIt" xml:space="preserve">
+    <value>Yes, delete it</value>
+    <comment>Yes, delete it</comment>
+  </data>
+  <data name="justify.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Justify</value>
+    <comment>Justify</comment>
+  </data>
+  <data name="justifyCenter" xml:space="preserve">
+    <value>Center</value>
+    <comment>Center</comment>
+  </data>
+  <data name="justifyLeft" xml:space="preserve">
+    <value>Left</value>
+    <comment>Left</comment>
+  </data>
+  <data name="justifyRight" xml:space="preserve">
+    <value>Right</value>
+    <comment>Right</comment>
+  </data>
+  <data name="ordered" xml:space="preserve">
+    <value>Ordered List</value>
+    <comment>Ordered List</comment>
+  </data>
+  <data name="publish.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Publish</value>
+    <comment>Publish</comment>
+  </data>
+  <data name="unordered" xml:space="preserve">
+    <value>Unordered List</value>
+    <comment>Unordered List</comment>
+  </data>
+  <data name="checkYourConnection" xml:space="preserve">
+    <value>Check your internet connection.</value>
+    <comment>Check your internet connection.</comment>
+  </data>
+  <data name="errorReturned" xml:space="preserve">
+    <value>Server returned error code!</value>
+    <comment>Server returned error code!</comment>
+  </data>
+  <data name="notConnected" xml:space="preserve">
+    <value>It seems you are not connected to the Internet.</value>
+    <comment>It seems you aren't connected to the Internet.</comment>
+  </data>
+  <data name="checkMyBlog" xml:space="preserve">
+    <value>Check my blog!</value>
+    <comment>Check my blog!</comment>
+  </data>
+  <data name="shareBlog" xml:space="preserve">
+    <value>Share your blog!</value>
+    <comment>Share your blog!</comment>
+  </data>
+  <data name="sharePost" xml:space="preserve">
+    <value>Share your post!</value>
+    <comment>Share your post!</comment>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="fileSize" xml:space="preserve">
+    <value>File size is bigger than 1 MB. Do you want to continue?</value>
+    <comment>File size is bigger than 1 MB. Do you want to continue?</comment>
+  </data>
+  <data name="privacyPolicy" xml:space="preserve">
+    <value>Privacy Policy</value>
+    <comment>Privacy Policy</comment>
+  </data>
+  <data name="signOut" xml:space="preserve">
+    <value>Sign out</value>
+    <comment>Sign out</comment>
+  </data>
+  <data name="urlPage" xml:space="preserve">
+    <value>Blogger Main Page</value>
+    <comment>Blogger Main Page</comment>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Warning</value>
+    <comment>Warning</comment>
+  </data>
+  <data name="noTitle" xml:space="preserve">
+    <value>You didn't enter your post title!</value>
+    <comment>You didn't enter your post title!</comment>
+  </data>
+</root>

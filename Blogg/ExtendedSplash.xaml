@@ -1,0 +1,50 @@
+﻿<Page x:Class="Blogg.ExtendedSplash"
+          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Blogg"
+    xmlns:data="using:Blogg.Data"
+    xmlns:common="using:Blogg.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <Storyboard x:Name="PopInStoryboard">
+            <PopInThemeAnimation  Storyboard.TargetName="stackPanel" 
+                              FromVerticalOffset="400"/>
+        </Storyboard>
+    </Page.Resources>
+  
+    <Grid Background="Orange">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="250"/>
+        </Grid.RowDefinitions>
+
+        <Canvas Grid.Row="0">
+            <Image x:Name="extendedSplashImage" Source="Assets/SplashScreen.png" />
+        </Canvas>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" x:Name="stackPanel">
+            <TextBlock Style="{StaticResource HeaderTextStyle}" TextWrapping="Wrap" TextAlignment="Center" Padding="10" HorizontalAlignment="Center" Text="Welcome to Blogg!" x:Uid="welcomeLabel"/>
+            <!--<TextBlock Style="{StaticResource SubheaderTextStyle}" TextWrapping="Wrap" TextAlignment="Center" Padding="10" HorizontalAlignment="Center">
+                To use this program, you need to sign in.
+            </TextBlock>-->
+            <Grid HorizontalAlignment="Center" Margin="0,30,0,0" >
+                <!--<Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Button x:Name="signButton" Content="Sign in..." Grid.Column="0" Click="signinClick"/>
+                <Button x:Name="registerButton" Content="or create new account." Grid.Column="1" Click="registerClick"/>-->
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="signButton" x:Uid="signButton" Style="{StaticResource PathAppBarButtonStyle}" AutomationProperties.Name="Sign in" Click="signinClick" Foreground="Black">
+                        M 14.5,6C 13.672,6 13,5.328 13,4.5C 13,3.672 13.672,3 14.5,3C 15.328,3 16,3.672 16,4.5C 16,5.328 15.328,6 14.5,6 Z M 13,0C 9.68669,0 7,2.68665 7,6C 7,6.87866 7.2,7.70801 7.53865,8.4613L 0,16L 0,19L 3,19L 5,19L 5,17L 7,17L 7,15L 9,15L 9,13L 10.5387,11.4613C 11.292,11.8013 12.1213,12 13,12C 16.3134,12 19,9.31335 19,6C 19,2.68665 16.3134,0 13,0 Z
+                    </Button>
+                    <Button x:Name="registerButton" x:Uid="registerButton" Style="{StaticResource PathAppBarButtonStyle}" AutomationProperties.Name="Create New" Click="registerClick" Foreground="Black">
+                        M 14.7867,14.7841L 14.7867,11.6174L 12.6733,11.6174L 12.6733,14.7841L 9.50533,14.7841L 9.50533,16.8961L 12.6733,16.8961L 12.6733,20.064L 14.7867,20.064L 14.7867,16.8961L 17.9533,16.8961L 17.9533,14.7841M 7.39331,17.424L 7.39331,14.256C 7.39331,13.3814 8.10266,12.6721 8.97733,12.6721L 10.5627,12.6721L 10.5627,11.6174C 9.95467,11.3121 9.56799,10.7667 9.23196,10.212C 11.2386,9.46405 12.6733,7.54669 12.6733,5.27869C 12.6733,2.36536 10.3107,6.10352e-005 7.39331,6.10352e-005C 4.47733,6.10352e-005 2.11331,2.36536 2.11331,5.27869C 2.11331,7.54535 3.54532,9.46136 5.54932,10.2107C 5.20267,10.772 4.81331,11.3227 4.224,11.6174C 2.11331,12.6721 0,14.2374 0,17.952C 0,20.064 0,20.064 2.116,20.0747C 2.892,20.0774 7.672,20.076 10.5627,20.0734L 10.5627,19.0081L 8.97733,19.0081C 8.10266,19.0081 7.39331,18.2987 7.39331,17.424 Z
+                    </Button>
+                </StackPanel>
+            </Grid>
+
+        </StackPanel>
+    </Grid>
+</Page>
