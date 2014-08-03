@@ -1,10 +1,1 @@
-blogg-w8 - simple google blogger client for Windows 8
-
-it was available in Windows Store some time ago, but it was deleted because of some problem with connect to service
-but, this app won some contests, so probably it isn't too bad ;)
-
-TODO:
-- some people can't connect to Google. i don't have any faulty logs, and it works (on my computer)
-- stability
-- install Windows 8 xD
-
+blogg-w8 - blogger client for Windows 8
